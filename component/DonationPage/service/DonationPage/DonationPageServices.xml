@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-2.1.xsd">
+    <service verb="create" noun="Donation" type="java" location="com.mk.moqui.StripeHandler" method="getDonation" authenticate="anonymous-all">
+        <in-parameters>
+            <auto-parameters include="all"/>
+        </in-parameters>
+        <out-parameters>
+            <auto-parameters include="pk" required="true"/>
+        </out-parameters>
+        <actions>
+            <entity-make-value entity-name="DonationPage.Donation" value-field="donation"/>
+            <entity-set value-field="Donation" include="all"/>
+            <if condition="!Donation.email">
+                <entity-sequenced-id-primary value-field="donation"/>
+            </if>
+            <entity-create value-field="donation"/>
+        </actions>
+    </service>
+</services>

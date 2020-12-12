@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen require-authentication="false" standalone="true"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-2.1.xsd">
+  
+  <transition name="Stripe" require-session-token="false">
+      <service-call name="DonationPage.DonationPageServices.createDonation"/>
+      <default-response url="."/>
+  </transition>
+
+  <widgets>
+      <label type="h1" text="Thank you for your generous donation!"/>
+  </widgets>
+</screen>

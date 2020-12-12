@@ -1,0 +1,52 @@
+--- 2020-12-05 23:17:31.611 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:17:59.767 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:17:59.883 [           main] ERROR      org.moqui.impl.webapp.ElasticRequestLogFilter [] []
+ In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+--- 2020-12-05 23:18:27.364 [tp1227229563-49] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ Java method for service [DonationPage.DonationPageServices.create#Donation] threw an exception
+--- 2020-12-05 23:18:27.364 [tp1227229563-49] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ No such property: apiKey for class: com.mk.moqui.Stripe
+--- 2020-12-05 23:24:49.781 [tp1227229563-77] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ Could not find class for java service [DonationPage.DonationPageServices.create#Donation]
+--- 2020-12-05 23:24:49.781 [tp1227229563-77] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ Class com.mk.moqui.StripeHandler not found.
+--- 2020-12-05 23:25:49.350 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:26:17.671 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:26:17.776 [           main] ERROR      org.moqui.impl.webapp.ElasticRequestLogFilter [] []
+ In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+--- 2020-12-05 23:28:13.228 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:28:40.611 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:28:40.730 [           main] ERROR      org.moqui.impl.webapp.ElasticRequestLogFilter [] []
+ In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+--- 2020-12-05 23:29:02.386 [tp1227229563-49] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ Java method for service [DonationPage.DonationPageServices.create#Donation] threw an exception
+--- 2020-12-05 23:29:02.390 [tp1227229563-49] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ No signature of method: org.moqui.util.ContextStack.getParameter() is applicable for argument types: (String) values: [stripeToken]
+--- 2020-12-05 23:30:37.020 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:31:04.232 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:31:04.329 [           main] ERROR      org.moqui.impl.webapp.ElasticRequestLogFilter [] []
+ In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+--- 2020-12-05 23:32:18.158 [tp1227229563-50] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ Java method for service [DonationPage.DonationPageServices.create#Donation] threw an exception
+--- 2020-12-05 23:32:18.160 [tp1227229563-50] ERROR           org.moqui.impl.context.MessageFacadeImpl [] []
+ No signature of method: org.moqui.util.ContextStack.getParameter() is applicable for argument types: (String) values: [email]
+--- 2020-12-05 23:34:08.273 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:34:35.954 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:34:36.058 [           main] ERROR      org.moqui.impl.webapp.ElasticRequestLogFilter [] []
+ In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
+--- 2020-12-05 23:36:11.380 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:36:38.602 [           main] ERROR           org.moqui.impl.context.ElasticFacadeImpl [] []
+ Error initializing ElasticClient for cluster default: java.util.concurrent.ExecutionException: java.net.ConnectException: Connection refused
+--- 2020-12-05 23:36:38.706 [           main] ERROR      org.moqui.impl.webapp.ElasticRequestLogFilter [] []
+ In ElasticRequestLogFilter init could not find ElasticClient with name logger or default, not starting
